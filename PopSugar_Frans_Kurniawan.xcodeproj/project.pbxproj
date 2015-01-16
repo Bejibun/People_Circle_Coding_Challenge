@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		803B37B11A68E7FE00195B40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B37B01A68E7FE00195B40 /* main.m */; };
+		803B37B41A68E7FE00195B40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B37B31A68E7FE00195B40 /* AppDelegate.m */; };
+		803B37B71A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 803B37B51A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.xcdatamodeld */; };
+		803B37BA1A68E7FE00195B40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B37B91A68E7FE00195B40 /* ViewController.m */; };
+		803B37BD1A68E7FE00195B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803B37BB1A68E7FE00195B40 /* Main.storyboard */; };
+		803B37BF1A68E7FE00195B40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803B37BE1A68E7FE00195B40 /* Images.xcassets */; };
+		803B37C21A68E7FE00195B40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803B37C01A68E7FE00195B40 /* LaunchScreen.xib */; };
+		803B37CE1A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 803B37CD1A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		803B37C81A68E7FE00195B40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 803B37A31A68E7FE00195B40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 803B37AA1A68E7FE00195B40;
+			remoteInfo = PopSugar_Frans_Kurniawan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		803B37AB1A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopSugar_Frans_Kurniawan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		803B37AF1A68E7FE00195B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803B37B01A68E7FE00195B40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		803B37B21A68E7FE00195B40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		803B37B31A68E7FE00195B40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		803B37B61A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PopSugar_Frans_Kurniawan.xcdatamodel; sourceTree = "<group>"; };
+		803B37B81A68E7FE00195B40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		803B37B91A68E7FE00195B40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		803B37BC1A68E7FE00195B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		803B37BE1A68E7FE00195B40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		803B37C11A68E7FE00195B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		803B37C71A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopSugar_Frans_KurniawanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		803B37CC1A68E7FE00195B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803B37CD1A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopSugar_Frans_KurniawanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		803B37A81A68E7FE00195B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803B37C41A68E7FE00195B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		803B37A21A68E7FE00195B40 = {
+			isa = PBXGroup;
+			children = (
+				803B37AD1A68E7FE00195B40 /* PopSugar_Frans_Kurniawan */,
+				803B37CA1A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests */,
+				803B37AC1A68E7FE00195B40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		803B37AC1A68E7FE00195B40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				803B37AB1A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.app */,
+				803B37C71A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		803B37AD1A68E7FE00195B40 /* PopSugar_Frans_Kurniawan */ = {
+			isa = PBXGroup;
+			children = (
+				803B37B21A68E7FE00195B40 /* AppDelegate.h */,
+				803B37B31A68E7FE00195B40 /* AppDelegate.m */,
+				803B37B81A68E7FE00195B40 /* ViewController.h */,
+				803B37B91A68E7FE00195B40 /* ViewController.m */,
+				803B37BB1A68E7FE00195B40 /* Main.storyboard */,
+				803B37BE1A68E7FE00195B40 /* Images.xcassets */,
+				803B37C01A68E7FE00195B40 /* LaunchScreen.xib */,
+				803B37B51A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.xcdatamodeld */,
+				803B37AE1A68E7FE00195B40 /* Supporting Files */,
+			);
+			path = PopSugar_Frans_Kurniawan;
+			sourceTree = "<group>";
+		};
+		803B37AE1A68E7FE00195B40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				803B37AF1A68E7FE00195B40 /* Info.plist */,
+				803B37B01A68E7FE00195B40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		803B37CA1A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests */ = {
+			isa = PBXGroup;
+			children = (
+				803B37CD1A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests.m */,
+				803B37CB1A68E7FE00195B40 /* Supporting Files */,
+			);
+			path = PopSugar_Frans_KurniawanTests;
+			sourceTree = "<group>";
+		};
+		803B37CB1A68E7FE00195B40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				803B37CC1A68E7FE00195B40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		803B37AA1A68E7FE00195B40 /* PopSugar_Frans_Kurniawan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803B37D11A68E7FE00195B40 /* Build configuration list for PBXNativeTarget "PopSugar_Frans_Kurniawan" */;
+			buildPhases = (
+				803B37A71A68E7FE00195B40 /* Sources */,
+				803B37A81A68E7FE00195B40 /* Frameworks */,
+				803B37A91A68E7FE00195B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopSugar_Frans_Kurniawan;
+			productName = PopSugar_Frans_Kurniawan;
+			productReference = 803B37AB1A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		803B37C61A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803B37D41A68E7FE00195B40 /* Build configuration list for PBXNativeTarget "PopSugar_Frans_KurniawanTests" */;
+			buildPhases = (
+				803B37C31A68E7FE00195B40 /* Sources */,
+				803B37C41A68E7FE00195B40 /* Frameworks */,
+				803B37C51A68E7FE00195B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				803B37C91A68E7FE00195B40 /* PBXTargetDependency */,
+			);
+			name = PopSugar_Frans_KurniawanTests;
+			productName = PopSugar_Frans_KurniawanTests;
+			productReference = 803B37C71A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		803B37A31A68E7FE00195B40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Frans Kurniawan";
+				TargetAttributes = {
+					803B37AA1A68E7FE00195B40 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					803B37C61A68E7FE00195B40 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 803B37AA1A68E7FE00195B40;
+					};
+				};
+			};
+			buildConfigurationList = 803B37A61A68E7FE00195B40 /* Build configuration list for PBXProject "PopSugar_Frans_Kurniawan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 803B37A21A68E7FE00195B40;
+			productRefGroup = 803B37AC1A68E7FE00195B40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				803B37AA1A68E7FE00195B40 /* PopSugar_Frans_Kurniawan */,
+				803B37C61A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		803B37A91A68E7FE00195B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803B37BD1A68E7FE00195B40 /* Main.storyboard in Resources */,
+				803B37C21A68E7FE00195B40 /* LaunchScreen.xib in Resources */,
+				803B37BF1A68E7FE00195B40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803B37C51A68E7FE00195B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		803B37A71A68E7FE00195B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803B37B41A68E7FE00195B40 /* AppDelegate.m in Sources */,
+				803B37B71A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.xcdatamodeld in Sources */,
+				803B37BA1A68E7FE00195B40 /* ViewController.m in Sources */,
+				803B37B11A68E7FE00195B40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803B37C31A68E7FE00195B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803B37CE1A68E7FE00195B40 /* PopSugar_Frans_KurniawanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		803B37C91A68E7FE00195B40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 803B37AA1A68E7FE00195B40 /* PopSugar_Frans_Kurniawan */;
+			targetProxy = 803B37C81A68E7FE00195B40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		803B37BB1A68E7FE00195B40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803B37BC1A68E7FE00195B40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		803B37C01A68E7FE00195B40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803B37C11A68E7FE00195B40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		803B37CF1A68E7FE00195B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		803B37D01A68E7FE00195B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		803B37D21A68E7FE00195B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopSugar_Frans_Kurniawan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		803B37D31A68E7FE00195B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PopSugar_Frans_Kurniawan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		803B37D51A68E7FE00195B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopSugar_Frans_KurniawanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopSugar_Frans_Kurniawan.app/PopSugar_Frans_Kurniawan";
+			};
+			name = Debug;
+		};
+		803B37D61A68E7FE00195B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PopSugar_Frans_KurniawanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopSugar_Frans_Kurniawan.app/PopSugar_Frans_Kurniawan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		803B37A61A68E7FE00195B40 /* Build configuration list for PBXProject "PopSugar_Frans_Kurniawan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803B37CF1A68E7FE00195B40 /* Debug */,
+				803B37D01A68E7FE00195B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803B37D11A68E7FE00195B40 /* Build configuration list for PBXNativeTarget "PopSugar_Frans_Kurniawan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803B37D21A68E7FE00195B40 /* Debug */,
+				803B37D31A68E7FE00195B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		803B37D41A68E7FE00195B40 /* Build configuration list for PBXNativeTarget "PopSugar_Frans_KurniawanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803B37D51A68E7FE00195B40 /* Debug */,
+				803B37D61A68E7FE00195B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		803B37B51A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				803B37B61A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.xcdatamodel */,
+			);
+			currentVersion = 803B37B61A68E7FE00195B40 /* PopSugar_Frans_Kurniawan.xcdatamodel */;
+			path = PopSugar_Frans_Kurniawan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 803B37A31A68E7FE00195B40 /* Project object */;
+}
