@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
 
+@property (retain, nonatomic) IBOutlet UITextField *totalPeopleField;
+
+- (IBAction)populateTapped:(id)sender;
+
+//Core Data
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
 

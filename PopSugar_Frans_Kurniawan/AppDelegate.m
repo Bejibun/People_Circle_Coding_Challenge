@@ -13,10 +13,16 @@
 @end
 
 @implementation AppDelegate
+@synthesize vC;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    vC = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]]instantiateViewControllerWithIdentifier:@"ViewController"];
+    //using Navigation Controller
+    UINavigationController *mainNav = [[[UINavigationController alloc]initWithRootViewController:vC]autorelease];
+    self.window.rootViewController = mainNav;
     return YES;
 }
 
